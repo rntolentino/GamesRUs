@@ -1,0 +1,57 @@
+PROGRESS REPORT OF GAMES R US
+
+V1 - UPDATE FOR APRIL 19
+    Created a Node class and revised my project proposal. For the node class do far I have included a constructor that takes in the data 
+    the node stores. I added getters and setters as well as a toString method.
+
+V2 - UPDATE FOR APRIL 21
+    In this version I created a Tree class and used the Node class in the Tree. I added a getter and a setter for the root in the Tree class. After, I decided
+    to add an isEmpty method. I sort of created a blueprint for the  addNode and removeNode functions since I know I have to include and use them. 
+
+V2 - UPDATE FOR APRIL 24
+   I forgot to rename the folder. In this version I began to test the methods that I was creating. Tested the Tree class and Node class by creating a Tree, then 
+   creating the node and setting it as the root. Then I decided to use an ArrayList for the tree's children and created a method to add a node. Additionally 
+   I created a getter for the children. The Children variable is stored in the Node class. 
+
+V2 - UPDATE FOR APRIL 26
+    I forgot to rename the folder again. In this version I added a move function to the Tree Class and decided to finalize the removeNode and addNode functions. I 
+    decided to create a recursive toString method for the tree class. Then I decided to test all the new methods I created and finalized. 
+
+V4 - UPDATE FOR APRIL 28
+    For Version 4, I forgot that I had to include inheritance in this final and this is my first attempt at including inheritance in my project. For this version of 
+    the project I decided that my Node Class will be generic and that I would extend it with Inventory. So Inventory extends Node<String>. Inventory would allow the 
+    node to also store the price of the item, along with the name. In the class Inventory I included getter and setters for the price. Then I began to work on my 
+    Menu class. The menu class would use the class Tree to build a menu for GAMES R US. By creating a menu beforehand and sort of hardwiring it I can allow the user
+    to shop in the store if they are not the administrator. Then this would also give the administrator the opportunity to update, add or delete from the menu instead 
+    of having them create a menu from scratch.
+
+V4 - UPDATE FOR MAY 1
+        I forgot to rename the folder again. But with the last version I ran into serious bugs that would not allow me to progress on my project so I decided to make major 
+    changes. Before making these changes I asked Alexandra for a consultation and she gave me a lot of clarity on why I ran into these bugs and what I should do next. 
+        In this version I made my Tree class a generic tree. Then I decided to create an Inventory Node (InvNode) class that stores the price and the name of the item. I decided that 
+    MenuTree then extends GenTree<InvNode>. Meaning that GenTree, the generic tree class, only had the getters and setters for the root and an isEmpty function. 
+    MenuTree included methods to print the children when given a node (toChild), add a node, remove a node and set the root name. For my Menu class I decided that the 
+    the parameter for the method createMenu was going to be a tree (of type MenuTree). Then I began to build the menu for GAMES R US. I inspired the menu with games I grew 
+    up with. To test that all my methods were working I decided to begin the driver. 
+        In the driver I began working on my administrator and customer setting. I have mostly the administrator finished now I just have to debug. The administrator
+    should be able to add/remove a product and change the price. The customer setting was begun. Other than that I was also able to write the Directory for both settings.
+
+V6 - UPDATE FOR MAY 3
+    I had to work on getting my project to work so I did a lot to get to this point. I finalized the administrator setting and customer setting. This version allows the customer 
+    to shop. For the customer setting I added a cart which is presented as an ArrayList. Then I had to add a variable that represents the total, it is initialized as 0.00. 
+    For the customer setting the customer is able to add items to their cart, by adding to the cart the total is automatically updated. They are able to delete items from
+    their cart which also updated the total. I also added the feature that allows them to see their cart. Another thing I added to this version for both settings is the ability 
+    to view the menu which is something I realized I forgot to include during my presentation. 
+    This version is usable but there are still bugs that need to be fixed. 
+        
+V7
+    - Added a while loop that checks if the user input is not out of bounds, wherever needed. 
+    - For the Accessories Category, wherever the user needs to navigate through the accessories subtree, I added if statements that help move through this subtree.
+    - Changed my toString so that the menu prints out neatly with prices. Makes the tree data structure more visible.
+    - Added comments to my diver to make it easier for me to navigate the code and make it easier for others.
+    - Added print statements that allow the user to understand when they have added, deleted or edited the menu or their cart.
+    - Deleted any extra unnecessary code and comments or tester print statements. 
+    - Finalized the menu by adding more inventory 
+    - Fixed most bugs and organized my code
+    - Deleted unnecessary functions that I created 
+

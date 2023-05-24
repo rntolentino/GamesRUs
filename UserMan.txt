@@ -1,0 +1,74 @@
+USER MANUAL
+
+This is a game store called GAMES R US! We are a store selling games and most things related to games. Since we are newly open there is much to be improved.
+Enjoy shopping in GAMES R US!
+
+WHEN THE OUTPUT IS NUMERIZED ON TERMINAL USER SHOULD ENTER NUMBER ONLY.
+
+HOW TO USE THE ADMIN SETTING:
+    When you get the welcome message enter "yes" to enter the administrator settings. After entering the admin setting then you will be shown a directory.
+    Input the number corresponding to the action you want to take.
+    The directory gives the administrator the opportunity to:
+
+    0. Quit 
+    1. Add Product to menu 
+    2. Delete from menu  
+    3. Change Price 
+    4. View Menu
+    
+    WHEN THE OUTPUT IS NUMERIZED ON TERMINAL USER SHOULD ENTER NUMBER ONLY.
+     
+    Quit- Allows the user to exit the administrator setting and allows them to interact with store as a customer 
+
+    Add Product to Menu allows you to add a product to the menu by:
+    1) Asking the category you want to ADD to then -> 2) Enter the name of the product -> 3) Enter the price -> 4) Returns to the directory 
+    
+    *****If the user decides to ADD to the accessories category then they will be able to add a product by moving to the accessories node then: *****
+    1) Being asked what brand they want to add a product to (which moves them to that node) -> 2) Being asked what is the name of the product
+    they want to add (helps create the node) -> 3) Being asked what is the price of the product they want to add (helps create the node) 
+    -> 3) Get message that node has been successfully added (node is added)
+
+
+    Delete from menu allows the user to delete from the menu:
+    1) Asking the category you want to DELETE from -> 2) Enter the NUMBER of the item you want to DELETE  -> 3) Returns to the directory 
+
+    *****If the user decides to DELETE FROM the accessories category then they will be able to DELETE  a product by moving to the accessories node then: *****
+    1) Being asked what brand they want to DELETE a product from (which moves them to that node) -> 2) Being asked product they want to remove 
+    -> 3) Get message that node has been successfully deleted (node is deleted)
+    
+
+
+    Change Price of a product allows the user to change the price of a product 
+    1) Asks the category you want to view -> 2) Enter the NUMBER of the item you want to EDIT -> 3) Enter the NEW price -> 4) Returns to the directory 
+
+    *****If the user decides to CHANGE A PRICE from an item in the accessories category then they will be able to change the price of a product by moving to the accessories node then: *****
+    1) Being asked what brand they want to edit (which moves them to that node) -> 2) Being asked the item they want to edit the price for -> 3) Entering 
+    the updated price  -> 3) Get message that price successfully updated (price is updated)
+
+
+
+HOW TO USE THE CUSTOMER SETTING:
+    When you get the welcome message enter "no" to enter the CUSTOMER setting. The user will be able to shop in this setting. After entering the shop you will
+    then be shown a directory. 
+
+    0. Quit 
+    1. Add to Cart
+    2. Cart Total  
+    3. Delete from cart  
+    4. View Menu
+ 
+    WHEN THE OUTPUT IS NUMERIZED ON TERMINAL USER SHOULD ENTER NUMBER ONLY.
+
+    Quit - Allows the user to exit the store, displays their cart and their total 
+
+    Adding to the cart - Add to cart, after choosing this option the user will then be asked: 
+    1) Asking the category you want to view  -> 2) Enter the NUMBER of the item you want to ADD to cart  -> 3) Returns to the directory
+
+    *****If the user decides to ADD AN ITEM TO THEIR CART from the accessories category, they will move to the accessories then they will be prompted to enter *****
+    1) what brand they want to a product from (which moves them to that node) -> 2) Being asked the product they want to add -> 3) Get message that 
+    item has been successfully added to cart
+
+    Cart Total - Displays the cart and the total (when you choose this option it is shown promptly after)
+
+    Deleting from the cart allows you to delete items from the cart
+    1) Displays numerized cart  -> 2) Enter the NUMBER of the item you want to remove -> 3)UPDATED cart and a "Successfully REMOVED item" message is displayed

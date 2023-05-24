@@ -1,0 +1,8 @@
+For my final project I have decided to build and use a menu represented as a tree. This will include an administrative setting that will allow admin to add to the menu or delete from the menu. Each item on the menu will represented as a node. If there is time I will give each user a set amount of money and they will be able to add to the cart from the menu and checkout. \
+
+Timeline:
+Level 1 -  Create a tree in which a parent node can have more than two nodes. DONE
+Level 2 -  Delete/add nodes to build a menu. DONE
+Level 3 -  Creating an administrative option (part of driver) that will allow the owner of the restaurant to edit/build the menu. DONE
+Level 4 -  Create the driver that will allow the customer to interact with the menu. DONE
+

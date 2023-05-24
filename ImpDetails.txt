@@ -1,0 +1,25 @@
+Justification for Children: 
+ArrayList Class  : Decided to use an arraylist due to the fact that I want quick access to the elements. 
+
+GENERIC CLASS: 
+I decided to make a generic Tree class (GenTree). The class MenuTree extends GenTree using the specific type of InvyNode (GenTree<InvyNode>),to learn more about the class 
+look at the file itself. 
+
+RESOURCES USED: 
+    To learn more about inheritance I read this article online:
+        - https://www.eclipse.org/aspectj/doc/released/adk15notebook/generics.html
+    To learn more about the scanner and fix bugs with the Scanner I read this article:
+        - https://www.w3schools.com/java/java_user_input.asp
+    To learn more about Tree terminology I read this article:
+        - https://www.tutorialspoint.com/data_structures_algorithms/tree_data_structure.htm
+    
+
+What I wish I would have added...
+    If I had more time I would love to add graphics to the project, so the user could actually feel like they are shopping online. Moreover, I would like to breakdown the Games 
+    category and categorize the games by the console type and model, this would be a bit more tedious. I would also breakdown the Console and Toys category and categorize the both
+    by brand. For my data structure, an arbitrary tree, this means that for the parent node accessories the user can only add to the grandchildren of the accessories node. The user 
+    cannot make new children for the parent node accessories. For the parent node toys the user can only create children for the parent node, not grandchildren. For the parent 
+    node consoles the user can only create children for the parent node, not grandchildren. For the parent node games the user can only create children for the parent node, 
+    not grandchildren.Unfortunately, I don't have enough time to include the feature of allowing the user to modify all the children and grandchildren to whichever node they would 
+    like. 
+    
